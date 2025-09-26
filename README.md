@@ -3,7 +3,7 @@ Bu proje Akbank Derin Öğrenmeye Giriş Bootcamp i kapsamında hazırladığım
 Kediler ve Köpekler için Konvolüsyonel Sinir Ağı (CNN)
 Bu proje, Kaggle'da bulunan "Asirra: cat vs dogs" veri kümesini kullanarak kedi ve köpek görüntülerini sınıflandırmak için sıfırdan oluşturulmuş bir Konvolüsyonel Sinir Ağı (CNN) modelinin geliştirilmesini ve değerlendirilmesini amaçlamaktadır.
 
-Teknolojiler
+**Teknolojiler**
 Python
 
 TensorFlow / Keras
@@ -14,10 +14,10 @@ Matplotlib
 
 scikit-learn
 
-Veri Kümesi
+# Veri Kümesi
 Bu çalışma için kullanılan veri kümesi, Asirra (Cats vs Dogs) yarışmasından alınmıştır. Veri kümesi, eğitim, doğrulama ve test aşamalarında kullanılmak üzere kedi ve köpek görüntülerini içermektedir.
 
-Model Mimarisi
+# Model Mimarisi
 Model, görüntü sınıflandırma için tipik bir CNN mimarisine sahiptir ve aşağıdaki katmanları içermektedir:
 
 Evrişim (Convolutional) Katmanları: Görüntülerdeki özellikleri çıkarmak için.
@@ -28,7 +28,7 @@ Yoğun (Dense) Katmanlar: Sınıflandırma işlemini gerçekleştirmek için.
 
 Dropout ve Batch Normalization: Modelin daha iyi genelleme yapmasını ve eğitimini hızlandırmak için.
 
-Sonuçlar
+# Sonuçlar
 Eğitim süreci sonunda modelin performansı aşağıdaki gibidir:
 
 Eğitim Doğruluğu: %98.59
@@ -39,7 +39,8 @@ Test Doğruluğu: %70.45
 
 Eğitim ve test doğruluğu arasındaki bu fark, modelin eğitim verilerine aşırı uyum (overfitting) eğilimi gösterdiğine işaret edebilir. Yine de, bu proje bir başlangıç çalışması olarak oldukça başarılıdır ve bir CNN modelinin temel işleyişini göstermektedir.
 
-Proje Nasıl Çalıştırılır?
+# Proje Nasıl Çalıştırılır?
+
 1-Projeyi kendi ortamınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
 
 2-Gerekli kütüphaneleri kurun:
@@ -47,7 +48,7 @@ Proje Nasıl Çalıştırılır?
 pip install tensorflow numpy matplotlib scikit-learn
 cnn-rnek-dogs-vs-cats.ipynb dosyasını Jupyter Notebook veya Google Colab üzerinde açın.
 
-Dosyadaki tüm hücreleri sırayla çalıştırın.
+3-Dosyadaki tüm hücreleri sırayla çalıştırın.
 
-kaggle linki
+# kaggle linki
 https://www.kaggle.com/code/sercanhoglu/cnn-ornek-dogs-vs-cats/edit 
