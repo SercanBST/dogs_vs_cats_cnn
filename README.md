@@ -51,4 +51,4 @@ cnn-rnek-dogs-vs-cats.ipynb dosyasını Jupyter Notebook veya Google Colab üzer
 3-Dosyadaki tüm hücreleri sırayla çalıştırın.
 
 # kaggle linki
-https://www.kaggle.com/code/sercanhoglu/cnn-ornek-dogs-vs-cats/edit 
+https://www.kaggle.com/code/sercanhoglu/cnn-ornek-dogs-vs-cats
